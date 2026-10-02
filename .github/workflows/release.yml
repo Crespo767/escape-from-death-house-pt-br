@@ -31,7 +31,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
-          name: ${{ github.ref_name }} - Curse of Strahd: Reloaded | Fuga da Casa da Morte (PT-BR)
+          name: "${{ github.ref_name }} - Curse of Strahd: Reloaded | Fuga da Casa da Morte (PT-BR)"
           body: |
             ## 🏰 Curse of Strahd: Reloaded | Arco A - Fuga da Casa da Morte (PT-BR) - ${{ github.ref_name }}
 
