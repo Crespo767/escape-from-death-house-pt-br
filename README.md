@@ -24,9 +24,10 @@ Adaptação e tradução completa para o Português Brasileiro (PT-BR) do primei
 
 Para que os mapas multiníveis e as automações funcionem corretamente, este módulo utiliza as seguintes dependências. Caso o instalador do Foundry solicite a instalação manual ou você deseje instalar uma a uma, basta copiar os links de **Manifest URL** abaixo e colar em **Módulos Adicionais** (*Add-on Modules*) > **Instalar Módulo** (*Install Module*):
 
-| Módulo | Versão (v13) | URL do Manifesto (Manifest URL) | Download Direto (.zip) |
+| Módulo | Versão | URL do Manifesto (Manifest URL) | Download Direto (.zip) |
 | :--- | :---: | :--- | :--- |
 | **Levels** | `6.1.0` | `https://github.com/theripper93/Levels/releases/download/6.1.0/module.json` | [module.zip](https://github.com/theripper93/Levels/releases/download/6.1.0/module.zip) |
+| **libWrapper** | `1.13.5.1` | `https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json` | [lib-wrapper.zip](https://github.com/ruipin/fvtt-lib-wrapper/releases/download/v1.13.5.1/lib-wrapper-v1.13.5.1.zip) |
 | **Monk's Active Tile Triggers** | `13.06` | `https://github.com/ironmonk88/monks-active-tiles/releases/download/13.06/module.json` | [13.06.zip](https://github.com/ironmonk108/monks-active-tiles/archive/13.06.zip) |
 | **Tagger** | `1.6.0` | `https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json` | [module.zip](https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/download/1.6.0/module.zip) |
 | **FXMaster** | `8.4.1` | `https://github.com/gambit07/fxmaster/releases/latest/download/module.json` | [module.zip](https://github.com/gambit07/fxmaster/releases/download/v8.4.1/module.zip) |
@@ -34,6 +35,7 @@ Para que os mapas multiníveis e as automações funcionem corretamente, este m�
 
 ### 🛠️ Para que serve cada dependência?
 * **[Levels](https://github.com/theripper93/Levels)**: Permite a exploração vertical e transição fluida entre os 4 andares da Mansão Durst no mesmo mapa.
+* **[libWrapper](https://github.com/ruipin/fvtt-lib-wrapper)**: Biblioteca essencial de encapsulamento de funções utilizada para permitir que múltiplos módulos (como o *Levels*) interceptem chamadas de métodos do Foundry sem gerar conflitos entre si.
 * **[Monk's Active Tile Triggers](https://github.com/ironmonk108/monks-active-tiles)**: Executa a automação de armadilhas, portas secretas, sons de terror e a fuga da mansão em colapso.
 * **[Tagger](https://github.com/fantasycalendar/FoundryVTT-Tagger)**: Identifica e conecta os alvos dos gatilhos no mapa.
 * **[FXMaster](https://github.com/gambit07/fxmaster)**: Aplica a densa névoa de Barovia e partículas climáticas imersivas.
