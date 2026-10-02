@@ -21,8 +21,8 @@ jobs:
           mkdir -p package/escape-from-death-house-pt-br
           cp -r assets packs module.json README.md package/escape-from-death-house-pt-br/ || true
           find package/escape-from-death-house-pt-br -name "LOCK" -delete || true
-          find package/escape-from-death-house-pt-br -name "LOG*" -delete || true
-          find package/escape-from-death-house-pt-br -name "*.log" -delete || true
+          find package/escape-from-death-house-pt-br -name "LOG" -delete || true
+          find package/escape-from-death-house-pt-br -name "LOG.old" -delete || true
           cd package
           zip -r ../escape-from-death-house-pt-br.zip escape-from-death-house-pt-br
           cd ..
