@@ -1,3 +1,9 @@
-2026/10/02-15:46:19.464 4cac Recovering log #187
-2026/10/02-15:46:19.467 4cac Delete type=0 #187
-2026/10/02-15:46:19.467 4cac Delete type=3 #185
+2026/10/02-17:36:21.358 65e8 Recovering log #205
+2026/10/02-17:36:21.359 65e8 Level-0 table #207: started
+2026/10/02-17:36:21.360 65e8 Level-0 table #207: 12613 bytes OK
+2026/10/02-17:36:21.363 65e8 Delete type=0 #205
+2026/10/02-17:36:21.364 65e8 Delete type=3 #204
+2026/10/02-17:36:21.364 5920 Compacting 4@0 + 0@1 files
+2026/10/02-17:36:21.370 5920 Generated table #209@0: 1215 keys, 157744 bytes
+2026/10/02-17:36:21.370 5920 Compacted 4@0 + 0@1 files => 157744 bytes
+2026/10/02-17:36:21.370 5920 compacted to: files[ 0 1 0 0 0 0 0 ]
