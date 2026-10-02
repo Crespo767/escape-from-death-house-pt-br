@@ -76,5 +76,5 @@ Para que os mapas multiníveis e as automações funcionem corretamente, este m�
 
 - **Autor Original**: [DragnaCarta](https://www.patreon.com/DragnaCarta) (*Curse of Strahd: Reloaded*).
 - **Adaptação para Foundry VTT**: [Eidolon Publishing / Hades](https://eidolonpublishing.com/).
-- **Tradução e Ajustes Técnicos**: Heitor Crespo ([GitHub](https://github.com/Crespo767)).
+- **Tradução e Ajustes Técnicos**: Crespo767 ([GitHub](https://github.com/Crespo767)).
 - *Dungeons & Dragons* é marca registrada da *Wizards of the Coast LLC*.
