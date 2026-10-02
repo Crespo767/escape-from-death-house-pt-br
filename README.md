@@ -1,0 +1,69 @@
+# 🏰 Curse of Strahd: Reloaded | Fuga da Casa da Morte (PT-BR)
+
+[![Foundry v13](https://img.shields.io/badge/Foundry%20VTT-v13-blue.svg)](https://foundryvtt.com/)
+[![D&D 5e](https://img.shields.io/badge/D%26D%205e-v4%20%7C%20v5-red.svg)](https://foundryvtt.com/packages/dnd5e)
+[![Release](https://img.shields.io/github/v/release/Crespo767/escape-from-death-house-pt-br?color=green)](https://github.com/Crespo767/escape-from-death-house-pt-br/releases/latest)
+
+Adaptação e tradução completa para o Português Brasileiro (PT-BR) do primeiro arco de **Curse of Strahd: Reloaded** por **DragnaCarta** (*Arco A: Fuga da Casa da Morte*), originalmente adaptado para o Foundry VTT pela *Eidolon Publishing*.
+
+---
+
+## ⚡ Instalação Direta no Foundry VTT
+
+1. No Foundry VTT, acesse a aba **Módulos Adicionais** (*Add-on Modules*).
+2. Clique em **Instalar Módulo** (*Install Module*).
+3. No campo **URL do Manifesto** (*Manifest URL*), cole o link abaixo:
+   ```text
+   https://github.com/Crespo767/escape-from-death-house-pt-br/releases/latest/download/module.json
+   ```
+4. Clique em **Instalar**. O Foundry baixará automaticamente o módulo e notificará sobre as dependências recomendadas.
+
+---
+
+## 🧩 Módulos Dependentes (Instalação Automática)
+
+Para que todos os andares empilhados e as automações de armadilhas funcionem como planejado, o módulo utiliza as seguintes dependências oficiais:
+
+- **[Levels](https://github.com/theripper93/Levels)**: Permite a exploração vertical e transição fluida entre os 4 andares da Mansão Durst no mesmo mapa.
+- **[Monk's Active Tile Triggers](https://github.com/ironmonk88/monks-active-tiles)**: Executa a automação de armadilhas, portas secretas, sons de terror e a fuga da mansão em colapso.
+- **[Tagger](https://github.com/fantasycalendar/FoundryVTT-Tagger)**: Identifica e conecta os alvos dos gatilhos no mapa.
+- **[FXMaster](https://github.com/gambit07/fxmaster)**: Aplica a densa névoa de Barovia e partículas climáticas imersivas.
+- **[Eidolon Utilities](https://github.com/Eidolon-Publishing/eidolon-utilities)**: Scripts de suporte técnico do módulo.
+
+---
+
+## 📦 Conteúdo Incluso
+
+- **Aventura Pronta em 1 Clique (`Adventure`)**: Importe toda a Casa da Morte diretamente para o seu mundo pelo compêndio de Aventuras.
+- **Mapas Multiníveis Completos (`Scenes`)**:
+  - *Mansão Durst* (Térreo, 1º Andar, 2º Andar e Sótão integrados com Levels).
+  - *Masmorras dos Durst* (Criptas, aposentos do culto e câmara ritualística do altar).
+- **Atores e Monstros Rebalanceados (`Actors`)**:
+  - *Walter, o Nascido da Cova* e o *Montículo de Carne* (mecânica de combate em duas fases).
+  - *Rosavalda "Rose"* e *Thornboldt "Thorn" Durst*.
+  - *Gustav* e *Elisabeth Durst*.
+  - *Armadura Animada*, *Vassoura Animada*, *Carniçais*, *Sombras de Cinzas*, *Esfolados*, etc.
+- **Guia do Mestre Completo (`Journals`)**:
+  - Textos de narração prontos para ler aos jogadores.
+  - Pistas, quebra-cabeças e segredos explicados passo a passo.
+  - Regras de Sessão Zero, Motivações, Vínculos e Defeitos temáticos de Barovia.
+- **Itens e Relíquias (`Items`)**: Cartas secretas, pergaminhos e relíquias do culto Durst.
+- **Tabelas de Rolagem (`RollTables`)**: Livros da biblioteca, encontros e eventos aleatórios.
+
+---
+
+## 🛠️ Correções e Melhorias Desta Versão
+
+- **Tradução PT-BR Integrada**: Nomes de atores, cenas, diários, itens e textos principais localizados.
+- **Caminhos de Mídia Higienizados**: Todas as 270+ referências de caminhos de arquivos ajustadas para o novo pacote sem quebra de links.
+- **Tags e Enrichers Corrigidos**: Eliminação de todas as tags brutas `&amp;Reference` para renderização perfeita de tooltips no Foundry v13.
+- **Compatibilidade D&D 5e / PHB 2024**: Ajuste nos cálculos de ficha, itens e atividades para os sistemas modernos.
+
+---
+
+## 📜 Créditos e Licença
+
+- **Autor Original**: [DragnaCarta](https://www.patreon.com/DragnaCarta) (*Curse of Strahd: Reloaded*).
+- **Adaptação para Foundry VTT**: [Eidolon Publishing / Hades](https://eidolonpublishing.com/).
+- **Tradução e Ajustes Técnicos**: Heitor Crespo ([GitHub](https://github.com/Crespo767)).
+- *Dungeons & Dragons* é marca registrada da *Wizards of the Coast LLC*.

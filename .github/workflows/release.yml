@@ -1,0 +1,67 @@
+name: Release Module
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Clean Package
+        run: |
+          mkdir -p package/escape-from-death-house-pt-br
+          cp -r assets packs module.json README.md package/escape-from-death-house-pt-br/ || true
+          find package/escape-from-death-house-pt-br -name "LOCK" -delete || true
+          find package/escape-from-death-house-pt-br -name "LOG*" -delete || true
+          find package/escape-from-death-house-pt-br -name "*.log" -delete || true
+          cd package
+          zip -r ../escape-from-death-house-pt-br.zip escape-from-death-house-pt-br
+          cd ..
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }} - Curse of Strahd: Reloaded | Fuga da Casa da Morte (PT-BR)
+          body: |
+            ## 🏰 Curse of Strahd: Reloaded | Arco A - Fuga da Casa da Morte (PT-BR) - ${{ github.ref_name }}
+
+            Adaptação oficial em Português Brasileiro (PT-BR) do aclamado primeiro arco de **Curse of Strahd: Reloaded** por DragnaCarta.
+
+            ### ⚡ Instalação Direta no Foundry VTT (Manifest URL)
+            Cole o link abaixo em **Add-on Modules** > **Install Module** > **Manifest URL**:
+            ```text
+            https://github.com/Crespo767/escape-from-death-house-pt-br/releases/latest/download/module.json
+            ```
+
+            ### 🧩 Dependências Automáticas
+            Ao instalar pelo manifest, o Foundry detectará e solicitará a instalação automática das dependências necessárias:
+            - **Levels** (para a exploração vertical dos andares da Mansão Durst)
+            - **Monk's Active Tile Triggers** (para armadilhas, portas secretas e gatilhos da fuga)
+            - **Tagger** (para identificação de alvos e entidades interativas)
+            - **FXMaster** (para efeitos de clima e névoa atmosférica de Barovia)
+            - **Eidolon Utilities** (para scripts auxiliares do módulo)
+
+            ### 📦 Conteúdo desta Versão
+            - **Aventura Completa em 1 Clique**: Importação de todas as cenas, diários, monstros e itens.
+            - **Cenas Multiníveis**: *Mansão Durst* e *Masmorras dos Durst* totalmente configuradas.
+            - **Atores & Monstros**: *Walter, o Nascido da Cova*, *Montículo de Carne*, *Rose*, *Thorn*, *Armadura Animada*, etc.
+            - **Diários de Mestre Traduzidos**: Todo o guia de condução de DragnaCarta em português.
+            - **Correções de Integridade**: Tags HTML higienizadas, caminhos de mídia atualizados e compatibilidade com Foundry v13.
+
+            ### 📦 Download Manual
+            - [escape-from-death-house-pt-br.zip](https://github.com/Crespo767/escape-from-death-house-pt-br/releases/download/${{ github.ref_name }}/escape-from-death-house-pt-br.zip)
+          files: |
+            escape-from-death-house-pt-br.zip
+            module.json
+          draft: false
+          prerelease: false

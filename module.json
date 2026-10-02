@@ -1,0 +1,158 @@
+{
+  "id": "escape-from-death-house-pt-br",
+  "title": "Curse of Strahd: Reloaded | Fuga da Casa da Morte (PT-BR)",
+  "manifestPlusVersion": "1.2.0",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Adaptação oficial em português brasileiro do primeiro arco (Fuga da Casa da Morte) de Curse of Strahd: Reloaded por DragnaCarta. Contém cenas multiníveis completas, monstros e NPCs adaptados, itens, tabelas e automações prontas para Foundry VTT.</p>",
+  "authors": [
+    {
+      "name": "DragnaCarta (Autor Original)",
+      "url": "https://www.patreon.com/DragnaCarta"
+    },
+    {
+      "name": "Hades / Eidolon Publishing (Adaptação Foundry)",
+      "url": "https://eidolonpublishing.com"
+    },
+    {
+      "name": "Heitor Crespo (Tradução e Ajustes PT-BR)",
+      "url": "https://github.com/Crespo767"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "cosrl-arca-actors",
+      "label": "CoS:RL Arc A - Atores (PT-BR)",
+      "path": "packs/cosrl-arca-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cosrl-arca-adventure",
+      "label": "Curse of Strahd: Reloaded | Arco A - Fuga da Casa da Morte (PT-BR)",
+      "path": "packs/cosrl-arca-adventure",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cosrl-arca-items",
+      "label": "CoS:RL Arc A - Itens (PT-BR)",
+      "path": "packs/cosrl-arca-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cosrl-arca-tables",
+      "label": "CoS:RL Arc A - Tabelas (PT-BR)",
+      "path": "packs/cosrl-arca-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cosrl-arca-macros",
+      "label": "CoS:RL Arc A - Macros (PT-BR)",
+      "path": "packs/cosrl-arca-macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cosrl-arca-scenes",
+      "label": "CoS:RL Arc A - Cenas (PT-BR)",
+      "path": "packs/cosrl-arca-scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cosrl-arca-journals",
+      "label": "CoS:RL Arc A - Diários (PT-BR)",
+      "path": "packs/cosrl-arca-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module",
+        "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.21"
+        }
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "13.01",
+          "verified": "13.06"
+        }
+      },
+      {
+        "id": "tagger",
+        "type": "module",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.5.0",
+          "verified": "1.5.4"
+        }
+      },
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "manifest": "https://github.com/gambit07/fxmaster/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "7.3.0",
+          "verified": "7.3.0"
+        }
+      },
+      {
+        "id": "eidolon-utilities",
+        "manifest": "https://github.com/Eidolon-Publishing/eidolon-utilities/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0.0",
+          "verified": "1"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/Crespo767/escape-from-death-house-pt-br",
+  "manifest": "https://github.com/Crespo767/escape-from-death-house-pt-br/releases/latest/download/module.json",
+  "download": "https://github.com/Crespo767/escape-from-death-house-pt-br/releases/latest/download/escape-from-death-house-pt-br.zip"
+}
