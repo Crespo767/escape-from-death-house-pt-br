@@ -20,15 +20,24 @@ Adaptação e tradução completa para o Português Brasileiro (PT-BR) do primei
 
 ---
 
-## 🧩 Módulos Dependentes (Instalação Automática)
+## 🧩 Módulos Dependentes
 
-Para que todos os andares empilhados e as automações de armadilhas funcionem como planejado, o módulo utiliza as seguintes dependências oficiais:
+Para que os mapas multiníveis e as automações funcionem corretamente, este módulo utiliza as seguintes dependências. Caso o instalador do Foundry solicite a instalação manual ou você deseje instalar uma a uma, basta copiar os links de **Manifest URL** abaixo e colar em **Módulos Adicionais** (*Add-on Modules*) > **Instalar Módulo** (*Install Module*):
 
-- **[Levels](https://github.com/theripper93/Levels)**: Permite a exploração vertical e transição fluida entre os 4 andares da Mansão Durst no mesmo mapa.
-- **[Monk's Active Tile Triggers](https://github.com/ironmonk88/monks-active-tiles)**: Executa a automação de armadilhas, portas secretas, sons de terror e a fuga da mansão em colapso.
-- **[Tagger](https://github.com/fantasycalendar/FoundryVTT-Tagger)**: Identifica e conecta os alvos dos gatilhos no mapa.
-- **[FXMaster](https://github.com/gambit07/fxmaster)**: Aplica a densa névoa de Barovia e partículas climáticas imersivas.
-- **[Eidolon Utilities](https://github.com/Eidolon-Publishing/eidolon-utilities)**: Scripts de suporte técnico do módulo.
+| Módulo | Versão (v13) | URL do Manifesto (Manifest URL) | Download Direto (.zip) |
+| :--- | :---: | :--- | :--- |
+| **Levels** | `6.1.0` | `https://github.com/theripper93/Levels/releases/download/6.1.0/module.json` | [module.zip](https://github.com/theripper93/Levels/releases/download/6.1.0/module.zip) |
+| **Monk's Active Tile Triggers** | `13.06` | `https://github.com/ironmonk88/monks-active-tiles/releases/download/13.06/module.json` | [13.06.zip](https://github.com/ironmonk108/monks-active-tiles/archive/13.06.zip) |
+| **Tagger** | `1.6.0` | `https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json` | [module.zip](https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/download/1.6.0/module.zip) |
+| **FXMaster** | `8.4.1` | `https://github.com/gambit07/fxmaster/releases/latest/download/module.json` | [module.zip](https://github.com/gambit07/fxmaster/releases/download/v8.4.1/module.zip) |
+| **Eidolon Utilities** | `1.11.14` | `https://github.com/Eidolon-Publishing/eidolon-utilities/releases/latest/download/module.json` | [eidolon-utilities.zip](https://github.com/Eidolon-Publishing/eidolon-utilities/releases/download/v1.11.14/eidolon-utilities.zip) |
+
+### 🛠️ Para que serve cada dependência?
+* **[Levels](https://github.com/theripper93/Levels)**: Permite a exploração vertical e transição fluida entre os 4 andares da Mansão Durst no mesmo mapa.
+* **[Monk's Active Tile Triggers](https://github.com/ironmonk108/monks-active-tiles)**: Executa a automação de armadilhas, portas secretas, sons de terror e a fuga da mansão em colapso.
+* **[Tagger](https://github.com/fantasycalendar/FoundryVTT-Tagger)**: Identifica e conecta os alvos dos gatilhos no mapa.
+* **[FXMaster](https://github.com/gambit07/fxmaster)**: Aplica a densa névoa de Barovia e partículas climáticas imersivas.
+* **[Eidolon Utilities](https://github.com/Eidolon-Publishing/eidolon-utilities)**: Scripts de suporte técnico do módulo original.
 
 ---
 
