@@ -3,8 +3,15 @@
 [![Foundry v13](https://img.shields.io/badge/Foundry%20VTT-v13-blue.svg)](https://foundryvtt.com/)
 [![D&D 5e](https://img.shields.io/badge/D%26D%205e-v4%20%7C%20v5-red.svg)](https://foundryvtt.com/packages/dnd5e)
 [![Release](https://img.shields.io/github/v/release/Crespo767/escape-from-death-house-pt-br?color=green)](https://github.com/Crespo767/escape-from-death-house-pt-br/releases/latest)
+[![Módulo Original](https://img.shields.io/badge/Módulo%20Original-GitHub-181717?logo=github)](https://github.com/Eidolon-Publishing/cosrl-escape-from-death-house)
+[![YouTube](https://img.shields.io/badge/YouTube-Eidolon%20Publishing-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@EidolonPublishing)
+[![Patreon](https://img.shields.io/badge/Patreon-Eidolon%20Publishing-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/EidolonPublishing)
 
-Adaptação e tradução completa para o Português Brasileiro (PT-BR) do primeiro arco de **Curse of Strahd: Reloaded** por **DragnaCarta** (*Arco A: Fuga da Casa da Morte*), originalmente adaptado para o Foundry VTT pela *Eidolon Publishing*.
+Adaptação e tradução completa para o Português Brasileiro (PT-BR) do primeiro arco de **Curse of Strahd: Reloaded** por **DragnaCarta** (*Arco A: Fuga da Casa da Morte*), originalmente adaptado para o Foundry VTT pela equipe da [Eidolon Publishing](https://eidolonpublishing.com/).
+
+> [!NOTE]
+> **Módulo Original em Inglês:** [cosrl-escape-from-death-house (GitHub)](https://github.com/Eidolon-Publishing/cosrl-escape-from-death-house) desenvolvido por [Eidolon Publishing / Hades](https://eidolonpublishing.com/).  
+> Apoie o criador original no [Patreon](https://www.patreon.com/EidolonPublishing) e assista aos vídeos e tutoriais no [YouTube (@EidolonPublishing)](https://www.youtube.com/@EidolonPublishing)!
 
 ---
 
@@ -72,9 +79,27 @@ Para que os mapas multiníveis e as automações funcionem corretamente, este m�
 
 ---
 
-## 📜 Créditos e Licença
+## 📜 Créditos e Reconhecimentos
 
-- **Autor Original**: [DragnaCarta](https://www.patreon.com/DragnaCarta) (*Curse of Strahd: Reloaded*).
-- **Adaptação para Foundry VTT**: [Eidolon Publishing / Hades](https://eidolonpublishing.com/).
-- **Tradução e Ajustes Técnicos**: Crespo767 ([GitHub](https://github.com/Crespo767)).
-- *Dungeons & Dragons* é marca registrada da *Wizards of the Coast LLC*.
+Este projeto é uma localização comunitária para Português Brasileiro (PT-BR) baseada no trabalho original de **DragnaCarta** e na adaptação técnica para Foundry VTT feita pela equipe da **Eidolon Publishing**. Considere apoiar os criadores originais:
+
+### 🌟 Módulo Original & Criação para Foundry VTT
+* **Criador Original**: **Hades** / **Eidolon Publishing**
+* **Módulo Original no GitHub**: [Eidolon-Publishing/cosrl-escape-from-death-house](https://github.com/Eidolon-Publishing/cosrl-escape-from-death-house)
+* **Canal no YouTube**: [Eidolon Publishing no YouTube](https://www.youtube.com/@EidolonPublishing)
+* **Patreon**: [Patreon da Eidolon Publishing](https://www.patreon.com/EidolonPublishing)
+* **Site Oficial**: [eidolonpublishing.com](https://eidolonpublishing.com/)
+
+### 📖 Campanha Original (Curse of Strahd: Reloaded)
+* **Autor Original**: [DragnaCarta](https://www.patreon.com/DragnaCarta) (*Curse of Strahd: Reloaded*)
+* **Patreon**: [Patreon do DragnaCarta](https://www.patreon.com/DragnaCarta)
+* **Guia Oficial da Campanha**: [Curse of Strahd: Reloaded](https://www.strahdreloaded.com/)
+
+### 🇧🇷 Tradução e Adaptação PT-BR
+* **Tradução e Ajustes Técnicos**: Crespo767 ([GitHub](https://github.com/Crespo767))
+
+---
+
+### ⚖️ Licença e Direitos
+* *Dungeons & Dragons* e *Curse of Strahd* são marcas registradas da *Wizards of the Coast LLC*.
+* Este módulo é uma iniciativa de fãs e segue a política de conteúdo de fãs da Wizards of the Coast.
