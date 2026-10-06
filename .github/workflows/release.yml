@@ -23,6 +23,7 @@ jobs:
           find package/escape-from-death-house-pt-br -name "LOCK" -delete || true
           find package/escape-from-death-house-pt-br -name "LOG" -delete || true
           find package/escape-from-death-house-pt-br -name "LOG.old" -delete || true
+          find package/escape-from-death-house-pt-br -name "*.log" -delete || true
           cd package
           zip -r ../escape-from-death-house-pt-br.zip escape-from-death-house-pt-br
           cd ..
