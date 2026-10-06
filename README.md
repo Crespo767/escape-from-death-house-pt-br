@@ -96,7 +96,7 @@ Este projeto é uma localização comunitária para Português Brasileiro (PT-BR
 * **Guia Oficial da Campanha**: [Curse of Strahd: Reloaded](https://www.strahdreloaded.com/)
 
 ### 🇧🇷 Tradução e Adaptação PT-BR
-* **Tradução e Ajustes Técnicos**: Crespo767 ([GitHub](https://github.com/Crespo767))
+* **Adaptação Comunitária**: Projeto sem fins lucrativos feito de forma voluntária por fãs para a comunidade brasileira no Foundry VTT.
 
 ---
 

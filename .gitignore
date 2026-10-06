@@ -1,0 +1,23 @@
+# LevelDB transient, log and lock files
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+packs/**/*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build and release artifacts
+package/
+*.zip
+dist/
+build/

@@ -1,9 +1,0 @@
-2026/10/02-15:46:19.447 80bc Recovering log #244
-2026/10/02-15:46:19.448 80bc Level-0 table #246: started
-2026/10/02-15:46:19.451 80bc Level-0 table #246: 89861 bytes OK
-2026/10/02-15:46:19.454 80bc Delete type=0 #244
-2026/10/02-15:46:19.454 80bc Delete type=3 #243
-2026/10/02-15:46:19.454 488c Compacting 4@0 + 0@1 files
-2026/10/02-15:46:19.459 488c Generated table #248@0: 100 keys, 98050 bytes
-2026/10/02-15:46:19.460 488c Compacted 4@0 + 0@1 files => 98050 bytes
-2026/10/02-15:46:19.461 488c compacted to: files[ 0 1 0 0 0 0 0 ]

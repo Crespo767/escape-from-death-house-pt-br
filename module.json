@@ -19,13 +19,27 @@
       "patreon": "https://www.patreon.com/EidolonPublishing"
     },
     {
-      "name": "Crespo767 (Tradução e Ajustes PT-BR)",
-      "url": "https://github.com/Crespo767"
+      "name": "Comunidade D&D 5e PT-BR"
     }
   ],
   "flags": {
     "canUpload": true
   },
+  "packFolders": [
+    {
+      "name": "CoS: Reloaded | Fuga da Casa da Morte PT-BR",
+      "sorting": "a",
+      "packs": [
+        "cosrl-arca-adventure",
+        "cosrl-arca-scenes",
+        "cosrl-arca-actors",
+        "cosrl-arca-items",
+        "cosrl-arca-journals",
+        "cosrl-arca-tables",
+        "cosrl-arca-macros"
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "cosrl-arca-actors",
