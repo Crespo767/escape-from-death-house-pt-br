@@ -2,7 +2,7 @@
   "id": "escape-from-death-house-pt-br",
   "title": "Curse of Strahd: Reloaded | Fuga da Casa da Morte (PT-BR)",
   "manifestPlusVersion": "1.2.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -21,6 +21,9 @@
     {
       "name": "Comunidade D&D 5e PT-BR"
     }
+  ],
+  "esmodules": [
+    "scripts/module.mjs"
   ],
   "flags": {
     "canUpload": true
