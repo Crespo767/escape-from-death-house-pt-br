@@ -2,7 +2,7 @@
   "id": "escape-from-death-house-pt-br",
   "title": "Curse of Strahd: Reloaded | Fuga da Casa da Morte (PT-BR)",
   "manifestPlusVersion": "1.2.0",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -22,9 +22,6 @@
       "name": "Comunidade D&D 5e PT-BR"
     }
   ],
-  "esmodules": [
-    "scripts/module.mjs"
-  ],
   "flags": {
     "canUpload": true
   },
@@ -38,8 +35,7 @@
         "cosrl-arca-actors",
         "cosrl-arca-items",
         "cosrl-arca-journals",
-        "cosrl-arca-tables",
-        "cosrl-arca-macros"
+        "cosrl-arca-tables"
       ]
     }
   ],
@@ -85,18 +81,6 @@
       "label": "CoS:RL Arc A - Tabelas (PT-BR)",
       "path": "packs/cosrl-arca-tables",
       "type": "RollTable",
-      "system": "dnd5e",
-      "ownership": {
-        "GAMEMASTER": "OWNER",
-        "ASSISTANT": "OWNER",
-        "PLAYER": "OBSERVER"
-      }
-    },
-    {
-      "name": "cosrl-arca-macros",
-      "label": "CoS:RL Arc A - Macros (PT-BR)",
-      "path": "packs/cosrl-arca-macros",
-      "type": "Macro",
       "system": "dnd5e",
       "ownership": {
         "GAMEMASTER": "OWNER",
@@ -174,6 +158,13 @@
           "minimum": "1.0.0",
           "verified": "1"
         }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd-compendium-pt-br",
+        "type": "module",
+        "manifest": "https://github.com/Crespo767/d-d-pt-br-compendium/releases/latest/download/module.json"
       }
     ]
   },
