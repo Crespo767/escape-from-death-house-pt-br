@@ -7,6 +7,8 @@
 [![YouTube](https://img.shields.io/badge/YouTube-Eidolon%20Publishing-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@EidolonPublishing)
 [![Patreon](https://img.shields.io/badge/Patreon-Eidolon%20Publishing-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/EidolonPublishing)
 
+> ✅ **Verificado em 09/10/2026** no Foundry VTT 13.350 com dnd5e 5.3.3: todos os compêndios carregam sem erros e todas as referências (links, magias, invocações, cenas e imagens) resolvem.
+
 Adaptação e tradução completa para o Português Brasileiro (PT-BR) do primeiro arco de **Curse of Strahd: Reloaded** por **DragnaCarta** (*Arco A: Fuga da Casa da Morte*), originalmente adaptado para o Foundry VTT pela equipe da [Eidolon Publishing](https://eidolonpublishing.com/).
 
 > [!NOTE]
