@@ -16,8 +16,8 @@ jobs:
   build-and-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: '22'
           cache: npm
@@ -41,7 +41,7 @@ jobs:
           unzip -l escape-from-death-house-pt-br.zip | grep 'scripts/control-data.mjs'
           unzip -l escape-from-death-house-pt-br.zip | grep 'macros/atualizar-controles.js'
       - name: Publish Foundry installation assets
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3.0.3
         with:
           tag_name: ${{ steps.package.outputs.tag }}
           target_commitish: ${{ github.sha }}
