@@ -29,6 +29,29 @@ Adaptação e tradução completa para o Português Brasileiro (PT-BR) do primei
 
 ---
 
+## Atualização dos controles na v1.0.17
+
+Esta versão corrige os botões **Valsa para Klara**, **Tranca da Escada do Sótão** e **Blecaute Sobrenatural**. A música e as imagens alternativas são pré-carregadas ao abrir a mansão; o blecaute não aguarda mais um fade de 3 segundos e pode restaurar o estado anterior. A escada secreta passa a respeitar a altura do sótão.
+
+**Para instalar ou atualizar:** use a mesma URL de manifesto acima no gerenciador de módulos do Foundry e recarregue os clientes após a atualização.
+
+**Cenas já importadas no mundo não são atualizadas automaticamente pelo Foundry.** Para aplicar a correção sem reimportar a aventura:
+
+1. Abra a Mansão Durst ou as Masmorras dos Durst como mestre, com o blecaute desativado.
+2. Crie uma macro do tipo **Script**, copie o conteúdo de [macros/atualizar-controles.js](macros/atualizar-controles.js) e execute-a uma vez. As duas cenas devem estar presentes no mundo.
+3. A macro atualiza os controles e a escada nas duas cenas e salva suas configurações anteriores na flag `escape-from-death-house-pt-br.controlsBackup`. Tokens e outros documentos da cena são preservados. Ações personalizadas nos controles revisados serão substituídas.
+4. Recarregue mestre e jogadores. O botão da valsa continua ignorando novos cliques enquanto a música está tocando; ele não reinicia a faixa.
+
+Para importações novas, os compêndios de Aventura e Cenas já contêm as correções. Veja as [evidências e roteiro de teste](docs/revisao-botoes.md). A validação automatizada não substitui a conferência audiovisual na sessão multiplayer.
+
+### Desenvolvimento e publicação
+
+Execute `npm ci` e `npm test`. Após editar a lógica dos controles, execute `npm run update-controls` para embutir o código nos dois compêndios, e rode os testes novamente. O Foundry deve estar fechado se estiver usando esses bancos. Os testes usam cópias temporárias dos compêndios.
+
+O GitHub valida commits e pull requests no Windows e no Linux. Para publicar, atualize `module.json` e as [notas de release](docs/release-notes.md), faça commit e envie uma tag `v<versão>`. O workflow confere a versão, executa os testes, prepara o pacote e publica o ZIP e o manifesto com a mesma URL de download fixada na versão. A URL `releases/latest/download/module.json` continua sendo a entrada de instalação e atualização no Foundry.
+
+---
+
 ## 🧩 Módulos Dependentes
 
 Para que os mapas multiníveis e as automações funcionem corretamente, este módulo utiliza as seguintes dependências. Caso o instalador do Foundry solicite a instalação manual ou você deseje instalar uma a uma, basta copiar os links de **Manifest URL** abaixo e colar em **Módulos Adicionais** (*Add-on Modules*) > **Instalar Módulo** (*Install Module*):
